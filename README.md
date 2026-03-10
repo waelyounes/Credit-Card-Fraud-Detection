@@ -9,21 +9,21 @@ As a Ph.D. in Applied Mathematics, I have developed this project to demonstrate 
 ## Mathematical & Technical Approach
 Dealing with imbalanced data requires more than just standard accuracy metrics. In this project, I implemented:
 
-1.  **Data Preprocessing**: Standardized features using `StandardScaler` to ensure numerical stability for the algorithms.
-2.  **Handling Class Imbalance**: Used **Under-sampling** (or SMOTE) to balance the distribution of transactions, ensuring the model doesn't become biased toward legitimate cases.
-3.  **Algorithmic Logic**: Implemented **Logistic Regression** as a baseline, leveraging its probabilistic nature to classify transactions.
-4.  **Evaluation Metrics**: Focused on **Precision, Recall, and F1-Score** rather than simple accuracy, which is misleading in fraud detection scenarios.
+1.  Data Preprocessing: Standardized features using `StandardScaler` to ensure numerical stability for the algorithms.
+2.  Handling Class Imbalance: Used Under-sampling (or SMOTE) to balance the distribution of transactions, ensuring the model doesn't become biased toward legitimate cases.
+3.  Algorithmic Logic: Implemented Logistic Regression as a baseline, leveraging its probabilistic nature to classify transactions.
+4.  Evaluation Metrics: Focused on Precision, Recall, and F1-Score rather than simple accuracy, which is misleading in fraud detection scenarios.
 
 ## Key Features
-- **Exploratory Data Analysis (EDA)**: Visualizing the distribution of 'Time' and 'Amount' features.
-- **Model Training**: Utilizing Scikit-Learn for efficient model deployment.
-- **Performance Evaluation**: Detailed classification report and confusion matrix analysis.
+- Exploratory Data Analysis (EDA): Visualizing the distribution of 'Time' and 'Amount' features.
+- Model Training: Utilizing Scikit-Learn for efficient model deployment.
+- Performance Evaluation: Detailed classification report and confusion matrix analysis.
 
 ## Tools & Libraries
-- **Python**: Core programming language.
-- **Pandas & NumPy**: Data manipulation and numerical analysis.
-- **Scikit-Learn**: Machine Learning framework.
-- **Matplotlib & Seaborn**: Data visualization.
+- Python: Core programming language.
+- Pandas & NumPy: Data manipulation and numerical analysis.
+- Scikit-Learn: Machine Learning framework.
+- Matplotlib & Seaborn: Data visualization.
 
 ## How to Use
 1. Clone the repository.
